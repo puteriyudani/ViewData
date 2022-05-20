@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ViewData</string>
+    <string name="btn_list_view">Tampilkan Listview</string>
+    <string-array name="jurusan">
+        <item>Teknik Informatika</item>
+        <item>Bahasa</item>
+        <item>Teknik Perkapalan</item>
+        <item>Teknik Mesin</item>
+        <item>Teknik Elektro</item>
+        <item>Administrasi Niaga</item>
+        <item>Teknik Sipil</item>
+        <item>Kemaritiman</item>
+    </string-array>
+</resources>
