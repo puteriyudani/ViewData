@@ -3,20 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="5dp"
     android:orientation="vertical"
-    android:padding="16dp"
-    tools:context=".MainActivity">
+    tools:context=".DetailBuahActivity">
 
-    <Button
-        android:id="@+id/btnlistview"
+    <TextView
+        android:id="@+id/detailtxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn_list_view"/>
-
-    <Button
-        android:id="@+id/btnrecylerview"
+        android:gravity="center"
+        android:text="@string/nama_buah"
+        android:textSize="30sp" />
+    <ImageView
+        android:id="@+id/imgdetail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_recyler_view"/>
+        android:layout_height="240dp"
+        android:src="@drawable/alpukat" />
 
 </LinearLayout>
